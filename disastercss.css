@@ -1,0 +1,159 @@
+body{
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 100%;
+  font-family: sans-serif;
+  background: #262626;
+}
+
+.disaster
+{
+  display: inline-block;
+  position: relative;
+  top: 30px;
+  left:7%;
+}
+.disaster .card
+{
+  position: relative;
+  width: 350px;
+  margin: 0 auto;
+  background: white;
+  padding: 20px;
+  box-sizing: border-box;
+  text-align: center;
+  box-shadow: 0 10px 40px rgba(0,0,0,.5);
+  overflow: hidden;
+}
+.disaster .card .layer
+{
+  position: absolute;
+  top: calc(100% - 2px);
+  left: 0;
+  width: 100%;
+  background: linear-gradient(#03a9f4, #e91ee3);
+  z-index: 1;
+  height: 100%;
+  transition: 0.5s;
+}
+.disaster .card:hover .layer
+{
+  top: 0;
+}
+.disaster .card .content
+{
+  position: relative;
+  z-index: 2;
+}
+.disaster .card .content p
+{
+    font-size: 18px;
+    line-height: 24px;
+    color: #fff;
+}
+.disaster .card .content image
+{
+  width: 100px;
+  height: 100px;
+  margin: 0 auto;
+  border-radius: 50%;
+  overflow: hidden;
+  border: 4px solid #fff;
+  box-shadow: 0 10px 20px rgba(0,0,0,.5);
+}
+.disaster .card .content .details h2
+{
+  font-size: 18px;
+  color: #fff;
+}
+.disaster .card .content .details h2 span
+{
+  color: #03a9f4;
+  font-size: 14px;
+  transition: 0.5s;
+}
+.disaster .card:hover .content .details h2 span
+{
+  color: #fff;
+}
+.disaster1{
+  display: inline-block;
+  position: relative;
+  top:30px;
+  left:40%;
+}
+.disaster1 .card
+{
+  position: relative;
+  width: 350px;
+  margin: 0 auto;
+  background: white;
+  padding: 20px;
+  box-sizing: border-box;
+  text-align: center;
+  box-shadow: 0 10px 40px rgba(0,0,0,.5);
+  overflow: hidden;
+}
+.disaster1 .card .layer
+{
+  position: absolute;
+  top: calc(100% - 2px);
+  left: 0;
+  width: 100%;
+  background: linear-gradient(#03a9f4, #e91ee3);
+  z-index: 1;
+  height: 100%;
+  transition: 0.5s;
+}
+.disaster1 .card:hover .layer
+{
+  top: 0;
+}
+.disaster1 .card .content
+{
+  position: relative;
+  z-index: 2;
+}
+.disaster1 .card .content p
+{
+    font-size: 18px;
+    line-height: 24px;
+    color: #fff;
+}
+.disaster1 .card .content image
+{
+  width: 100px;
+  height: 100px;
+  margin: 0 auto;
+  border-radius: 50%;
+  overflow: hidden;
+  border: 4px solid #fff;
+  box-shadow: 0 10px 20px rgba(0,0,0,.5);
+}
+.disaster1 .card .content .details h2
+{
+  font-size: 18px;
+  color: #fff;
+}
+.disaster1 .card .content .details h2 span
+{
+  color: #03a9f4;
+  font-size: 14px;
+  transition: 0.5s;
+}
+.disaster .card:hover .content .details h2 span
+{
+  color: #fff;
+}
+
+.but a{
+  text-decoration: none;
+  color: #03a9f4;
+  background-color: white ;
+  padding: 5px;
+}
+.but a.hover{
+  background-color: black;
+  color: white;
+}
